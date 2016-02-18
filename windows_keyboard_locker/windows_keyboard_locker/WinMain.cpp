@@ -43,7 +43,6 @@ void OnUnlock(HWND hwnd);
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR szCmdLine, int iCmdShow)
 {
 	HWND hwnd;
-	HICON Icon;
 	MSG msg;
 	NOTIFYICONDATA IconData;
 	WNDCLASS wndclass;
